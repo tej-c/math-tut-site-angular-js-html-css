@@ -3,18 +3,18 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './mathbuster/header/header.component';
-import { UiModule } from './ui/ui.module';
+import { UseriModule } from './useri/useri.module';
+
 
 @NgModule({
   declarations: [
-    AppComponent,
-    HeaderComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    UiModule
+    UseriModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,22 @@
+nav{
+    background-color: #24252a;
+}
+div{
+    color: gray;
+}
+
+.navbar-expand  a{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #edf0f1;
+    text-decoration: none;
+
+}
+
+.navbar-expand  a {
+    transition: all 0.3s ease 0s;
+  }
+
+.navbar-expand  a:hover {
+    color: #0088a9;
+  }

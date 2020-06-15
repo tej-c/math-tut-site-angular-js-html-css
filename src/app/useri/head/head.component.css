@@ -3,8 +3,9 @@
     margin: 0;
     padding: 0;
     background-color: #24252a;
-  }
   
+  }
+
   header {
     display: flex;
     justify-content: flex-end;
@@ -30,6 +31,12 @@
     color: #edf0f1;
     text-decoration: none;
   }
+  .nav__links li button{
+    transition: all 0.3s ease 0s;
+  }
+  .nav__links li button:hover{
+    color: #0088a9;
+  }
   
   .nav__links li {
     padding: 0px 20px;
@@ -46,17 +53,62 @@
   .cta {
     margin-left: 20px;
     padding: 9px 25px;
-    background-color: rgba(0, 136, 169, 1);
+    background-color: #24252a;
     border: none;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
   }
-  
-  .cta:hover {
-    background-color: rgba(0, 136, 169, 0.8);
+  .mat{
+    margin-left: 20px;
+    padding: 0px 20px;
+    background-color: #24252a;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-weight: 500;
+    color: #edf0f1;
+    font-family: "Montserrat", sans-serif;
   }
-  
+.matt{
+  background-color: #24252a;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  font-weight: 500;
+  color: #edf0f1;
+  font-family: "Montserrat", sans-serif;
+}
+.matt:hover{
+  color: #0088a9;
+}
+  .cta:hover {
+    background-color: #0088a9;
+  }
+  nav{
+    background-color: #24252a;
+}
+div{
+    color: gray;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.navbar-expand  a{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #edf0f1;
+    text-decoration: none;
+
+}
+
+.navbar-expand  a {
+    transition: all 0.3s ease 0s;
+  }
+
+.navbar-expand  a:hover {
+    color: #0088a9;
+  }
   /* Mobile Nav */
   
   .menu {

@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,8 +12,12 @@
             <a class="logo" href="/"><img src="../../../assets/images/mathbuster.png" alt="logo"></a>
             <nav>
                 <ul class="nav__links">
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Projects</a></li>
+                    <li><button class="mat" mat-button [matMenuTriggerFor]="beforeMenu">Services</button>
+                        <mat-menu #beforeMenu="matMenu" xPosition="before">
+                          <button class="matt" mat-menu-item>Item 1</button>
+                          <button class="matt" mat-menu-item>Item 2</button>
+                        </mat-menu></li>
+
                     <li><a href="#">About</a></li>
                 </ul>
             </nav>
@@ -27,6 +32,13 @@
                 <a href="#">About</a>
             </div>
         </div>
+        <nav class="navbar   mt-5 fixed-bottom">
+            <div class="navbar-expand m-auto navbar-text">
+            Created by <a href="https://chettipalligteja.wixsite.com/portfolio"target="blank">Tej</a>
+            </div>
+            </nav>
+        
     
     </body>
+    </html>
 

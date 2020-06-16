@@ -3,6 +3,7 @@ nav{
 }
 div{
     color: gray;
+    font-size: medium;
 }
 
 .navbar-expand  a{
@@ -10,6 +11,7 @@ div{
     font-weight: 500;
     color: #edf0f1;
     text-decoration: none;
+    font-size: medium;
 
 }
 

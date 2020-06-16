@@ -71,17 +71,23 @@
     color: #edf0f1;
     font-family: "Montserrat", sans-serif;
   }
-.matt{
-  background-color: #24252a;
+.matt a{
+  text-decoration: none;
   cursor: pointer;
   transition: all 0.3s ease 0s;
   font-weight: 500;
-  color: #edf0f1;
+  color: #24252a;
   font-family: "Montserrat", sans-serif;
+  background-color:white;
+  font-size: medium;
 }
-.matt:hover{
-  color: #0088a9;
+.matt a:hover{
+  color: #00ccff;
 }
   .cta:hover {
     background-color: #0088a9;
   }
+
+.matt{
+  background-color: white;
+}

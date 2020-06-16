@@ -4,6 +4,8 @@ import { HeadComponent } from './head/head.component';
 import { LayComponent } from './lay/lay.component';
 import { FootComponent } from './foot/foot.component';
 import {MatMenuModule} from '@angular/material/menu';
+import { AppRoutingModule } from '../app-routing.module';
+
 
 
 
@@ -11,7 +13,8 @@ import {MatMenuModule} from '@angular/material/menu';
   declarations: [HeadComponent, LayComponent, FootComponent],
   imports: [
     CommonModule,
-    MatMenuModule
+    MatMenuModule,
+    AppRoutingModule,
   ],
   exports:[HeadComponent,LayComponent,FootComponent]
 })

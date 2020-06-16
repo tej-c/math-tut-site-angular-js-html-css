@@ -1,8 +1,11 @@
-import { NgModule } from '@angular/core';
+import { ConComponent } from './useri/con/con.component';
+import { NgModule, Component } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 
-const routes: Routes = [];
+const routes: Routes = [
+  {path:'con', component:ConComponent}
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

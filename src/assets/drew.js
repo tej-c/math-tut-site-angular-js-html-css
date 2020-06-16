@@ -1,4 +1,4 @@
-function draw() {
+function drew() {
     var canvas = $('canvas')[0];
     if(canvas.getContext) {
         var ctx = canvas.getContext('2d');

@@ -1,4 +1,4 @@
-function draw()
+function drew()
 $(document).ready(function() {
     // $(document).draw();
     $('#content').animate({

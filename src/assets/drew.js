@@ -1,5 +1,4 @@
-
-
+function draw()
 $(document).ready(function() {
     // $(document).draw();
     $('#content').animate({

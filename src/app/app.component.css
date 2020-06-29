@@ -10,4 +10,11 @@ h3{
     color: black;
 }
 
-
+div{margin-top: 0px; 
+    background-color: whitesmoke; 
+    margin-left: 100px; 
+    margin-bottom: 0px; 
+    margin-right: 100px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}

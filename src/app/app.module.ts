@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { UseriModule } from './useri/useri.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { TopicsModule } from './topics/topics.module';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     BrowserModule,
     AppRoutingModule,
     UseriModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    TopicsModule
 
   ],
   providers: [],

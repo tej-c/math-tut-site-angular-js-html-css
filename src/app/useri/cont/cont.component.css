@@ -57,7 +57,7 @@ p:last-child { margin-bottom:0 }
     position:relative;
     border-radius:10px;
     background: #24252a;
-    border:2.5px solid;
+    border:3px solid;
     padding:13px;
     line-height:1.5em;
 }

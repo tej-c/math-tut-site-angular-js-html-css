@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size:15px;
+    color: whitesmoke;
+    background-color: whitesmoke;
+    overflow-x:hidden;
+}
+
+main {
+    position:relative;
+    padding:7vh 0 10vh;
+    opacity:0;
+    margin-top:-5px;
+}
+
+@media all and (min-width:670px) {
+    main { 
+        width: 570px;
+        margin-left: 10vw;
+    }
+}
+
+@media all and (max-width:670px) {
+    main { margin:0 15px }
+}
+
+
+h1, h2 {
+    position:relative;
+    display:flex;
+    align-items:center;
+    font-family: 'Share Tech mono', monospace;
+    line-height: 1em;
+    word-spacing:-.1em;
+    letter-spacing:-.05em;
+    transition:.2s all ease;
+    margin-left:10px;
+    margin-bottom:15px;
+}
+
+h1 span, h2 span { 
+    padding:5px 7px;
+    border-radius:10px;
+    box-sizing:border-box;
+}
+.hex{
+    transition: all 0.3s ease 0s;
+}
+
+h1 { font-size:2.2em }
+h2 { cursor:pointer }
+p:first-child { margin-top:0 }
+p:last-child { margin-bottom:0 }
+
+.subtext {
+    position:relative;
+    border-radius:10px;
+    background: #24252a;
+    border:3px solid;
+    padding:13px;
+    line-height:1.5em;
+}
+
+.subtext:not(#main) {
+    display:none;
+}
+
+.subtext ul { margin:0; padding:0 25px; }
+
+.subtext a { 
+    color:whitesmoke; 
+    text-decoration:none;
+    cursor:pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.subtext:before {
+    content:'';
+    position:absolute;
+    width:1px;
+    background:#0088a9;
+    left:1.2em;
+    height:1.2em;
+    top:calc(-1.2em - 1px);
+    padding-left: 1.5px;
+    margin-left: 2.2px;
+    
+}
+.subtext.coll:before {
+    left:1em;
+    height:1.2em;
+    top:calc(-1.2em - 1px);
+}
+
+.hex:hover {
+    transform:rotate(30deg);
+}
+
+.hex, .hex:before, .hex:after {
+    height:1.5em;
+    width:.88em;
+    border:solid;
+    border-width:1.5px 0;
+    border-radius:2px;
+    box-sizing:border-box;
+    margin-top: 5.5px;
+    margin-bottom: 3px;
+}
+
+main .hex { 
+    position:relative;
+    display:inline-block;
+    margin-right:.5em;
+    transition: all 0.3s ease 0s;
+}
+
+.hex:before, .hex:after {
+    content:'';
+    position:absolute;
+    margin-top:-1px;
+}
+
+.hex:before { transform:rotate(60deg); }
+.hex:after { transform:rotate(-60deg); }
+
+.hex, .hex:before, .hex:after, .subtext {
+    border-color:#0088a9;
+}
+
+.hex.moved {
+    transform:rotate(30deg);
+}
+.subtext a:hover {
+    color:#0088a9;
+}
+
+span{
+    color: #24252a;
+    transition: all 0.3s ease 0s;
+}
+.span, span:hover{
+    color: #0088a9;
+}
+

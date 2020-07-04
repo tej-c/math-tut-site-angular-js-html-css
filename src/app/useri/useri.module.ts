@@ -6,13 +6,14 @@ import {MatMenuModule} from '@angular/material/menu';
 import { AppRoutingModule } from '../app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ContComponent } from './cont/cont.component';
+import { AboutComponent } from './about/about.component';
 
 
 
 
 
 @NgModule({
-  declarations: [HeadComponent, LayComponent, ContComponent],
+  declarations: [HeadComponent, LayComponent, ContComponent, AboutComponent],
   imports: [
     CommonModule,
     MatMenuModule,

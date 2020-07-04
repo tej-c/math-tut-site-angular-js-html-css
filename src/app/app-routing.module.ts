@@ -1,3 +1,4 @@
+import { AboutComponent } from './useri/about/about.component';
 import { AdvanceComponent } from './topics/advance/advance.component';
 import { MoreBasicsComponent } from './topics/more-basics/more-basics.component';
 import { BasicsComponent } from './topics/basics/basics.component';
@@ -10,7 +11,8 @@ const routes: Routes = [
   {path:'contact', component:ContComponent},
   {path:'basics', component:BasicsComponent},
   {path:'moderate', component:MoreBasicsComponent},
-  {path:'advanced', component:AdvanceComponent}
+  {path:'advanced', component:AdvanceComponent},
+  {path:'about', component:AboutComponent}
 ];
 
 @NgModule({

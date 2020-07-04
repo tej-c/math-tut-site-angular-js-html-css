@@ -10,6 +10,7 @@ import { ContComponent } from './cont/cont.component';
 
 
 
+
 @NgModule({
   declarations: [HeadComponent, LayComponent, ContComponent],
   imports: [

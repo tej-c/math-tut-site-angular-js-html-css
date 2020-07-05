@@ -78,7 +78,7 @@ p:last-child { margin-bottom:0 }
 .subtext:before {
     content:'';
     position:absolute;
-    width:1px;
+    width:2px;
     background:#0088a9;
     left:1.2em;
     height:1.2em;

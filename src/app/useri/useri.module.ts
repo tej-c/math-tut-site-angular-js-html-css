@@ -7,6 +7,8 @@ import { AppRoutingModule } from '../app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ContComponent } from './cont/cont.component';
 import { AboutComponent } from './about/about.component';
+import { FormsModule } from '@angular/forms';
+import {MatInputModule} from '@angular/material/input';
 
 
 
@@ -18,7 +20,10 @@ import { AboutComponent } from './about/about.component';
     CommonModule,
     MatMenuModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    FormsModule,
+    MatMenuModule,
+    MatInputModule
   ],
   exports:[HeadComponent,LayComponent,ContComponent]
 })

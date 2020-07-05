@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+
+import { Component, NgModule, OnInit } from '@angular/core';
+import { FormControl, Validators, NgForm, NgControl, NgModel } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
